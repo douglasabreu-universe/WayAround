@@ -15,7 +15,7 @@ public final class PhysicsEntities {
     public static final DeferredHolder<EntityType<?>, EntityType<PhysicsBlockEntity>> PY_BLOCK =
             ENTITY_TYPES.register("py_block", () ->
                     EntityType.Builder.of(PhysicsBlockEntity::new, MobCategory.MISC)
-                            .sized(1.0F, 1.0F, 1.0F)
+                            .sized(1.0F, 1.0F)
                             .clientTrackingRange(10)
                             .updateInterval(1)
                             .build("py_block"));
