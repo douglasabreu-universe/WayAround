@@ -1,0 +1,28 @@
+{
+  "parent": "examplemod:vista",
+  "display": {
+    "icon": {
+      "id": "minecraft:squid_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.examplemod.vista.squid.title"
+    },
+    "description": {
+      "translate": "advancements.examplemod.vista.squid.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "noticed_squid": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:squid"
+        }
+      }
+    }
+  }
+}

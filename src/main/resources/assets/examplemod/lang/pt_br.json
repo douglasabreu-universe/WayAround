@@ -1,0 +1,16 @@
+{
+  "itemGroup.examplemod": "WayAround",
+  "itemGroup.examplemod.aguaculture": "Aguaculture",
+  "block.examplemod.luckyblock": "Bloco da Sorte",
+  "item.examplemod.sunfish_spawn_egg": "Ovo gerador de peixe-lua",
+  "entity.examplemod.sunfish": "Peixe-lua",
+
+  "advancements.examplemod.vista.title": "Vista",
+  "advancements.examplemod.vista.description": "Pequenos acontecimentos que merecem ser observados.",
+  "advancements.examplemod.vista.sunfish.title": "Uma visita incomum",
+  "advancements.examplemod.vista.sunfish.description": "Encontre um peixe-lua de perto.",
+  "advancements.examplemod.vista.squid.title": "Uma sombra silenciosa",
+  "advancements.examplemod.vista.squid.description": "Observe uma lula de perto.",
+  "advancements.examplemod.vista.glow_squid.title": "Uma luz abaixo",
+  "advancements.examplemod.vista.glow_squid.description": "Encontre uma lula brilhante."
+}

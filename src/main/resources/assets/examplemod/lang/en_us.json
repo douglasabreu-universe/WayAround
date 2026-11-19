@@ -1,7 +1,20 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
+  "itemGroup.examplemod": "WayAround",
+  "itemGroup.examplemod.aguaculture": "Aguaculture",
   "block.examplemod.example_block": "Example Block",
+  "block.examplemod.luckyblock": "Lucky Block",
   "item.examplemod.example_item": "Example Item",
+  "item.examplemod.sunfish_spawn_egg": "Sunfish Spawn Egg",
+  "entity.examplemod.sunfish": "Ocean Sunfish",
+
+  "advancements.examplemod.vista.title": "Vista",
+  "advancements.examplemod.vista.description": "Small events worth noticing.",
+  "advancements.examplemod.vista.sunfish.title": "An Unusual Visitor",
+  "advancements.examplemod.vista.sunfish.description": "Meet an ocean sunfish.",
+  "advancements.examplemod.vista.squid.title": "A Quiet Shadow",
+  "advancements.examplemod.vista.squid.description": "Notice a squid up close.",
+  "advancements.examplemod.vista.glow_squid.title": "A Light Below",
+  "advancements.examplemod.vista.glow_squid.description": "Find a glow squid.",
 
   "examplemod.configuration.title": "Example Mod Configs",
   "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",

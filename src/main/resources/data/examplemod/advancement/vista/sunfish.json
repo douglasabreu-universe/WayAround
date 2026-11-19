@@ -1,0 +1,28 @@
+{
+  "parent": "examplemod:vista",
+  "display": {
+    "icon": {
+      "id": "examplemod:sunfish_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.examplemod.vista.sunfish.title"
+    },
+    "description": {
+      "translate": "advancements.examplemod.vista.sunfish.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "noticed_sunfish": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "examplemod:sunfish"
+        }
+      }
+    }
+  }
+}
