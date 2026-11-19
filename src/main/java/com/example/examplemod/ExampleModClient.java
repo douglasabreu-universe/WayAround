@@ -1,5 +1,8 @@
 package com.example.examplemod;
 
+import com.example.examplemod.aguaculture.AguacultureEntities;
+import com.example.examplemod.aguaculture.client.SunfishModel;
+import com.example.examplemod.aguaculture.client.SunfishRenderer;
 import com.example.examplemod.physics.PhysicsEntities;
 import com.example.examplemod.physics.client.PhysicsBlockRenderer;
 
@@ -34,5 +37,11 @@ public class ExampleModClient {
     @SubscribeEvent
     static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(PhysicsEntities.PY_BLOCK.get(), PhysicsBlockRenderer::new);
+        event.registerEntityRenderer(AguacultureEntities.SUNFISH.get(), SunfishRenderer::new);
+    }
+
+    @SubscribeEvent
+    static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+        event.registerLayerDefinition(SunfishModel.LAYER_LOCATION, SunfishModel::createBodyLayer);
     }
 }
